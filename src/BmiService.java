@@ -1,7 +1,7 @@
 public class BmiService {
 
-    public int calculate(int m, int h) {
-        int hh = (m * 10000) / (h * h);
-        return hh;
+    public int calculate(int BodyWeight, int height) {
+        int BodyMassIndex = (BodyWeight * 10000) / (height * height);
+        return BodyMassIndex;
     }
 }
